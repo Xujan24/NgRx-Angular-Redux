@@ -1,0 +1,57 @@
+div.wrapper {
+    width: 75%;
+}
+
+.input, .select {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    min-width: 15rem;
+}
+
+select{
+    padding: 0.5rem;
+    min-width: 10rem;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: rgb(230,230,230);
+    border: 1px groove gray;
+    cursor: pointer;
+}
+
+button.delete {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background-color: red;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 1rem;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.list-item:nth-child(odd) {background-color: rgb(223, 223, 223);}
+.list-item:nth-child(even) {background-color: rgb(231, 231, 231);}
+
